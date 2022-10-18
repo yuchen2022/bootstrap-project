@@ -4,43 +4,60 @@ body {
 
 @media all and (min-width:991px) and (max-width:1199px) {
   .navbar {
-      width: 94%;
-      position: absolute;
-      left:3%;
-      z-index: 6;
+    width: 94%;
+    position: absolute;
+    left: 3%;
+    z-index: 6;
   }
-  }
-  @media all and (min-width:1201px) {
-    .navbar {
-      width: 76%;
-      position: absolute;
-      left:12%;
-      z-index: 6;
-        
-  }
-  }
+}
 
+@media all and (min-width:1201px) {
+  .navbar {
+    width: 76%;
+    position: absolute;
+    left: 12%;
+    z-index: 6;
+    top: 50px;
+
+  }
+}
+
+.info-container {
+  top: 10px;
+  left: 11%;
+  width: 78%;
+  position: absolute;
+  z-index: 6;
+}
 
 .text-costum a {
   font-size: 12px;
 }
+
 .text-costum span {
   font-size: 12px;
 }
 
-.carousal-caption-costum{
+.carousal-caption-costum {
 
-  left: 5% !important;
-  bottom: 10.25rem !important;
+  left: 11% !important;
+  bottom: 25.25rem !important;
   text-align: left !important;
 
 }
+
+.btn-costum:hover {
+
+  background-color: rgb(57, 113, 180) !important;
+
+}
+
 
 .logo1 {
   font-family: cursive;
   font-size: xx-large;
   font-weight: bolder;
-  color: rgba(13, 36, 206, 1);
+  color: rgb(23, 44, 205);
   text-shadow: 3px 3px rgba(105, 123, 183, 1);
 
 }
@@ -55,7 +72,7 @@ body {
 .custom-nav-item {
 
   font-weight: bold;
-  color: darkblue;
+  color: rgb(8, 8, 139);
 
 }
 
@@ -73,8 +90,13 @@ body {
 }
 
 .form-bg {
-  background-image: linear-gradient(to bottom right, rgba(255, 238, 225, 1), rgb(176, 233, 233));
+
+  width: 30rem;
+  height: 45rem;
+  background-image: linear-gradient(to bottom right, rgba(255, 238, 225, 1), rgb(63, 225, 209));
 }
+
+
 
 .apointment-button {
   width: 90%;
