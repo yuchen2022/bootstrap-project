@@ -3,12 +3,34 @@ body {
 }
 @media all  and (max-width:991px){
 
+  .navbar {
+    width: 100%;
+    position: absolute;
+    z-index: 6;
+  }
   .clients-bg {
   
     height: fit-content;
   
     width: 100%;
     background-image: linear-gradient(to bottom, rgba(255, 238, 225, 1) 0%, rgb(140, 230, 230) 40%, rgba(0, 255, 255, 0.08) 40%, rgba(0, 255, 255, 0.1) 100%);
+  }
+  .carousal-caption-costum {
+
+    left: 11% !important;
+    bottom: 8.25rem !important;
+    text-align: left !important;
+  
+  }
+  .blue-box1{
+  
+    left: 17%;
+    top: 30%;
+    width: 250px;
+    display: block;
+    font-size: small;
+    background-color: rgb(117, 221, 244) ;
+   
   }
 }
 @media all and (min-width:991px) and (max-width:1199px) {
@@ -25,6 +47,23 @@ body {
     width: 100%;
     background-image: linear-gradient(to right, rgba(255, 238, 225, 1) 0%, rgb(140, 230, 230) 40%, rgba(0, 255, 255, 0.08) 40%, rgba(0, 255, 255, 0.1) 100%);
   }
+  .carousal-caption-costum {
+
+  left: 11% !important;
+  bottom: 14.25rem !important;
+  text-align: left !important;
+
+}
+.blue-box1{
+  
+  left: 9%;
+  top: 33%;
+  width: 250px;
+  display: block;
+  font-size: small;
+  background-color: rgb(117, 221, 244) ;
+ 
+}
 }
 
 @media all and (min-width:1201px) {
@@ -43,6 +82,23 @@ body {
     width: 100%;
     background-image: linear-gradient(to right, rgba(255, 238, 225, 1) 0%, rgb(140, 230, 230) 40%, rgba(0, 255, 255, 0.08) 40%, rgba(0, 255, 255, 0.1) 100%);
   }
+  .carousal-caption-costum {
+
+  left: 11% !important;
+  bottom: 14.25rem !important;
+  text-align: left !important;
+
+}
+.blue-box1{
+  
+  left: 23%;
+  top: 20%;
+  width: 250px;
+  display: block;
+  font-size: small;
+  background-color: rgb(117, 221, 244) ;
+ 
+}
 }
 
 .info-container {
@@ -61,13 +117,7 @@ body {
   font-size: 12px;
 }
 
-.carousal-caption-costum {
 
-  left: 11% !important;
-  bottom: 14.25rem !important;
-  text-align: left !important;
-
-}
 
 .btn-costum{
  font-size:11px !important;
@@ -81,11 +131,11 @@ body {
 
 
 .logo1 {
-  font-family: cursive;
-  font-size: xx-large;
+
+  font-size: 30px;
   font-weight: bolder;
-  color: rgb(23, 44, 205);
-  text-shadow: 3px 3px rgba(105, 123, 183, 1);
+  color: rgb(12, 28, 153);
+  
 
 }
 
@@ -105,9 +155,7 @@ body {
 
 .cards-bg {
 
-  background-color: rgba(222, 245, 255, 0.435);
-  overflow: inherit;
-
+  background-color: rgba(190, 233, 251, 0.435);
 }
 
 .cards-heading {
@@ -117,17 +165,13 @@ body {
 }
 
 .costum-text {
+  font-size: 15px;
   font-weight: 500;
   color: rgba(105, 105, 105, 0.658);
   width: 180px;
   height: 120px;
 }
 
-.heading {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: larger;
-  font-weight: bold;
-}
 
 .form-bg {
 
@@ -139,6 +183,7 @@ body {
 
 
 .apointment-button {
+
   width: 90%;
   background-color: darkblue;
 }
@@ -165,7 +210,7 @@ body {
 }
 .Dc-heading-2{
 
-  font-weight: 700;
+  font-weight: 800;
   font-size:11px ;
   color: rgb(57, 224, 224);
 }
@@ -209,8 +254,61 @@ body {
   font-size: 10px;
   color: rgba(70, 221, 221, 0.725);
 }
+.our-blog-bg-img1{
+ 
+  display: block;
+  margin:0px ;
+  width: 100%;
+  height:100%;
+  
+  background-position: inherit;
+  background-repeat: no-repeat;
+  background-image: url('../images/our-blog-first.jpg');
+  
+}
+.our-blog-bg-img2{
+ 
+  display: block;
+  margin:0px ;
+  width: 100%;
+  height:100%;
+  
+  background-position: inherit;
+  background-repeat: no-repeat;
+  background-image: url('../images/our-blog-img-second.jpg');
+  
+}
+.our-blog-bg-img3{
+ 
+  display: block;
+  margin:0px ;
+  width: 100%;
+  height:100%;
+  
+  background-position: inherit;
+  background-repeat: no-repeat;
+  background-image: url('../images/our-blog-third.jpg');
+  
+ 
+}
+
+.blue-box1 a{
+
+  margin: 2%;
+  text-decoration: none;
+  color: white;
+  
+}
+.cards-bottom{
+
+
+  font-size: large;
+  color: rgb(53, 61, 144);
+  font-weight: 600;
+}
 
 .icons-footer {
+
   font-size: small;
   background-color: rgba(72, 206, 236, 0.725) ;
   padding-left: 0%;
@@ -230,9 +328,12 @@ body {
   padding-bottom: 3%;
   margin: 3%;
 }
+
 .ul-design {
+
   list-style-type: none ;
 }
+
 .footer-text{
   
   color: rgb(66, 72, 113);
