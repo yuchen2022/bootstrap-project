@@ -1,64 +1,100 @@
 body {
   font-family: sans-serif;
 }
+
 @media all and (max-width:575px){
+  .footer-text {
 
-  .scrolling-bg{
-
-    display: block;
-    height: 590px;
-    background-repeat: no-repeat;
-    background-attachment: fixed ;
-    background-image: url(../images/scroll.jpeg);
-    
-    
-    
+    color: rgb(66, 72, 113);
+    font-size: 11px !important;
+  
   }
-
 }
-@media all  and (min-width:576px) and (max-width:991px){
+@media all and (min-width:576px) and (max-width:776px){
 
   .navbar {
     width: 100%;
     position: absolute;
     z-index: 6;
   }
+
   .clients-bg {
-  
+
     height: fit-content;
-  
+
     width: 100%;
     background-image: linear-gradient(to bottom, rgba(255, 238, 225, 1) 0%, rgb(140, 230, 230) 40%, rgba(0, 255, 255, 0.08) 40%, rgba(0, 255, 255, 0.1) 100%);
   }
+
   .carousal-caption-costum {
 
     left: 11% !important;
     bottom: 8.25rem !important;
     text-align: left !important;
-  
+
   }
-  .blue-box1{
-  
+
+  .blue-box1 {
+
     left: 17%;
     top: 30%;
     width: 250px;
     display: block;
     font-size: small;
-    background-color: rgb(117, 221, 244) ;
-   
-  }
-  .scrolling-bg{
+    background-color: rgb(117, 221, 244);
 
+  }
+  .footer-text {
+
+    color: rgb(66, 72, 113);
+    font-size: 12px !important;
+  
+  }
+   
+} 
+@media all and (min-width:777px) and (max-width:991px) {
+
+  .navbar {
+    width: 100%;
+    position: absolute;
+    z-index: 6;
+  }
+
+  .clients-bg {
+
+    height: fit-content;
+
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgba(255, 238, 225, 1) 0%, rgb(140, 230, 230) 40%, rgba(0, 255, 255, 0.08) 40%, rgba(0, 255, 255, 0.1) 100%);
+  }
+
+  .carousal-caption-costum {
+
+    left: 11% !important;
+    bottom: 8.25rem !important;
+    text-align: left !important;
+
+  }
+
+  .blue-box1 {
+
+    left: 17%;
+    top: 30%;
+    width: 250px;
     display: block;
-    height: 590px;
-    background-repeat: no-repeat;
-    background-attachment: fixed ;
-    background-image: url(../images/scroll.jpeg);
-    
-    
-    
+    font-size: small;
+    background-color: rgb(117, 221, 244);
+
+  }
+
+  .footer-text {
+
+    color: rgb(66, 72, 113);
+    font-size: 14px !important;
+  
   }
 }
+
 @media all and (min-width:992px) and (max-width:1199px) {
   .navbar {
     width: 94%;
@@ -66,41 +102,40 @@ body {
     left: 3%;
     z-index: 6;
   }
+
   .clients-bg {
-  
+
     height: fit-content;
-  
+
     width: 100%;
     background-image: linear-gradient(to right, rgba(255, 238, 225, 1) 0%, rgb(140, 230, 230) 40%, rgba(0, 255, 255, 0.08) 40%, rgba(0, 255, 255, 0.1) 100%);
   }
+
   .carousal-caption-costum {
 
-  left: 11% !important;
-  bottom: 14.25rem !important;
-  text-align: left !important;
+    left: 11% !important;
+    bottom: 14.25rem !important;
+    text-align: left !important;
 
-}
-.blue-box1{
+  }
+
+  .blue-box1 {
+
+    left: 9%;
+    top: 33%;
+    width: 250px;
+    display: block;
+    font-size: small;
+    background-color: rgb(117, 221, 244);
+
+  }
+  .footer-text {
+
+    color: rgb(66, 72, 113);
+    font-size: 14px !important;
   
-  left: 9%;
-  top: 33%;
-  width: 250px;
-  display: block;
-  font-size: small;
-  background-color: rgb(117, 221, 244) ;
+  }
  
-}
-.scrolling-bg{
-
-  display: block;
-  height: 230px;
-  background-repeat: no-repeat;
-  background-attachment: fixed ;
-  background-image: url(../images/scroll.jpeg);
-  
-  
-  
-}
 }
 
 @media all and (min-width:1201px) {
@@ -112,43 +147,52 @@ body {
     top: 50px;
 
   }
+
   .clients-bg {
-  
+
     height: fit-content;
-  
+
     width: 100%;
-    background-image: linear-gradient(to right, rgba(255, 238, 225, 1) 0%, rgb(140, 230, 230) 40%, rgba(0, 255, 255, 0.08) 40%, rgba(0, 255, 255, 0.1) 100%);
+    background-image: linear-gradient(to right, rgba(255, 238, 225, 1) 0%, rgb(140, 230, 230) 40%, rgba(190, 233, 251, 0.35) 40%, rgba(190, 233, 251, 0.35) 100%);
   }
+
   .carousal-caption-costum {
 
-  left: 11% !important;
-  bottom: 14.25rem !important;
-  text-align: left !important;
+    left: 11% !important;
+    bottom: 14.25rem !important;
+    text-align: left !important;
 
-}
-.blue-box1{
+  }
+
+  .blue-box1 {
+
+    left: 23%;
+    top: 20%;
+    width: 250px;
+    display: block;
+    font-size: small;
+    background-color: rgb(117, 221, 244);
+
+  }
+
+  .footer-text {
+
+    color: rgb(66, 72, 113);
+    font-size: 14px !important;
   
-  left: 23%;
-  top: 20%;
-  width: 250px;
-  display: block;
-  font-size: small;
-  background-color: rgb(117, 221, 244) ;
- 
+  }
 }
-.scrolling-bg{
+
+.scrolling-bg {
 
   display: block;
-  height: 230px;
+  
   background-repeat: no-repeat;
-  background-attachment: fixed ;
+  background-attachment: fixed;
   background-image: url(../images/scroll.jpeg);
-  
-  
-  
-}
-}
+  background-size: cover;
 
+} 
 .info-container {
   top: 10px;
   left: 11%;
@@ -167,24 +211,32 @@ body {
 
 
 
-.btn-costum{
- font-size:11px !important;
+.btn-costum {
+
+  font-size: 11px !important;
 }
+
 .btn-costum:hover {
   
-  color: rgb(2, 2, 105)!important;
-  background-color: rgb(255, 255, 255) !important;
+  color: rgb(2, 2, 105) !important;
+  background-color: rgb(142, 227, 238) !important;
 
 }
 
-
+.navbar:hover{
+  background-image: linear-gradient(to right, rgba(242, 220, 204, 0.811)20%,rgba(190, 233, 251, 0.935)) !important;
+}
 .logo1 {
 
   font-size: 30px;
   font-weight: bolder;
   color: rgb(12, 28, 153);
-  
 
+
+}
+.logo1:hover{
+
+  color: deepskyblue;
 }
 
 .logo2 {
@@ -194,6 +246,7 @@ body {
   color: rgb(68, 153, 238);
 }
 
+
 .custom-nav-item {
 
   font-weight: bold;
@@ -201,29 +254,37 @@ body {
 
 }
 
+
 .cards-bg {
 
   background-color: rgba(190, 233, 251, 0.435);
+}
+
+.services:hover{
+
+    background-image: linear-gradient(to right, rgba(242, 220, 204, 0.811)20%,rgba(190, 233, 251, 0.935)) !important;
+  
 }
 
 .cards-heading {
   font-size: larger;
   font-weight: 600;
   color: rgb(14, 14, 166);
+
 }
 
 .costum-text {
-  font-size: 15px;
+
+  font-size: 14px;
   font-weight: 500;
   color: rgba(105, 105, 105, 0.658);
-  width: 180px;
   height: 120px;
 }
 
 
 .form-bg {
 
-  background-image: linear-gradient(to bottom right, rgba(255, 238, 225, 1), rgb(63, 225, 209));
+  background-image: linear-gradient(to bottom right, rgba(242, 220, 204, 0.811)20%, rgb(63, 225, 209));
 }
 
 
@@ -248,105 +309,120 @@ body {
 
 
 .Dc-heading-card {
-  
-  font-size:medium;
+
+  font-size: medium;
   color: rgb(53, 61, 144);
   font-weight: 600;
-  margin: 10px;
+  transition: all 200ms;
+}
+.Dc-heading-card:hover{
+
+  font-size: smaller;
 
 }
-.Dc-heading-2{
+
+
+.Dc-heading-2 {
 
   font-weight: 800;
-  font-size:11px ;
+  font-size: 11px;
   color: rgb(57, 224, 224);
 }
 
 .animate-img {
+  transition: all 200ms;
   margin-top: auto;
   transition: ease-out 1s;
 }
 
 .animate-img:hover {
+
   margin-top: -10px;
 }
 
 .icons {
-  font-size: 12px ;
+  font-size: 12px;
   width: 26px;
   height: 26px;
   padding: 8px;
-  
+
   background-color: rgb(57, 224, 224);
 }
 
 
-.card-star{
-  
+.card-star {
+
   padding-top: 3px;
   display: block;
   width: 100%;
   height: 100%;
 }
-.card-star p{
+
+.card-star p {
   font-size: small;
 }
-.star{
-  padding:1px;
+
+.star {
+  padding: 1px;
   font-size: x-small;
 }
-.card-star-second-heading{
-  
-  width: 160px;  
+
+.card-star-second-heading {
+
+  width: 160px;
   font-size: 10px;
   color: rgba(70, 221, 221, 0.725);
 }
-.our-blog-bg-img1{
- 
+
+.our-blog-bg-img1 {
+
   display: block;
-  margin:0px ;
+  margin: 0px;
   width: 100%;
-  height:100%;
-  
+  height: 100%;
+
   background-position: inherit;
   background-repeat: no-repeat;
   background-image: url('../images/our-blog-first.jpg');
-  
+
 }
-.our-blog-bg-img2{
- 
+
+.our-blog-bg-img2 {
+
   display: block;
-  margin:0px ;
+  margin: 0px;
   width: 100%;
-  height:100%;
-  
+  height: 100%;
+
   background-position: inherit;
   background-repeat: no-repeat;
   background-image: url('../images/our-blog-img-second.jpg');
-  
+
 }
-.our-blog-bg-img3{
- 
+
+.our-blog-bg-img3 {
+
   display: block;
-  margin:0px ;
+  margin: 0px;
   width: 100%;
-  height:100%;
-  
+  height: 100%;
+
   background-position: inherit;
   background-repeat: no-repeat;
   background-image: url('../images/our-blog-third.jpg');
-  
- 
+
+
 }
 
-.blue-box1 a{
+.blue-box1 a {
 
   margin: 2%;
   text-decoration: none;
   color: white;
-  
+
 }
-.cards-bottom{
+
+.cards-bottom {
 
 
   font-size: large;
@@ -354,10 +430,23 @@ body {
   font-weight: 600;
 }
 
+.subscribe-bg {
+
+
+  height: 18rem;
+  background-image: url(../images/scroll.png);
+  background-size: cover;
+
+}
+
+.footer-bg {
+  background-image: linear-gradient(to bottom right, rgb(245, 242, 242)20%, rgb(200, 247, 242));
+}
+
 .icons-footer {
 
   font-size: small;
-  background-color: rgba(72, 206, 236, 0.725) ;
+  background-color: rgba(72, 206, 236, 0.725);
   padding-left: 0%;
   cursor: pointer;
   padding: 3%;
@@ -367,7 +456,7 @@ body {
 
 .icons-footer-facebook {
   font-size: small;
-  background-color: rgba(72, 206, 236, 0.725) ;
+  background-color: rgba(72, 206, 236, 0.725);
   cursor: pointer;
   padding-left: 4%;
   padding-right: 4%;
@@ -378,13 +467,6 @@ body {
 
 .ul-design {
 
-  list-style-type: none ;
-}
-
-.footer-text{
-  
-  color: rgb(66, 72, 113);
-  font-size: 14px !important;
-
+  list-style-type: none;
 }
 
