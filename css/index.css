@@ -251,9 +251,14 @@ body {
 
   font-weight: bold;
   color: rgb(8, 8, 139);
+  transition: all 100ms;
 
 }
+.custom-nav-item:hover{
 
+  color: rgb(253, 168, 196) !important;
+  font-size: large;
+}
 
 .cards-bg {
 
@@ -330,14 +335,15 @@ body {
 }
 
 .animate-img {
-  transition: all 200ms;
+  transition: transform 600ms;
   margin-top: auto;
-  transition: ease-out 1s;
+  
 }
 
 .animate-img:hover {
-
-  margin-top: -10px;
+  transform: scale(1.1);
+  overflow: hidden;
+  /* margin-top: -10px; */
 }
 
 .icons {
